@@ -82,13 +82,13 @@ def page(lang, title, desc, body, path, alt=None, script=''):
 T = {
  'pt': dict(
    nav='<nav><a href="{r}index.html">Vagas</a> · <a href="{r}guia-entrevista-micro1.html">Guia da entrevista</a> · <a href="{r}en/index.html">English</a></nav>',
-   disc='<div class="box"><b>Divulgação:</b> os botões "Candidatar" são links de referral meus. Se te candidatares por eles, fores selecionado e trabalhares 10 horas, a micro1 paga-me um prémio. A ti não custa nada. <b>Não trabalho para a micro1 nem sou recrutador</b>: a seleção, os valores e as horas dependem só deles, e não há garantias. Se preferires, candidata-te directamente em micro1.ai.</div>',
+   disc='<div class="box"><b>Divulgação:</b> os botões "Candidatar" são links de referral meus. Se te candidatares por eles, fores selecionado e trabalhares 10 horas, a micro1 paga-me um prémio. A ti não custa nada. <b>Não sou funcionário nem recrutador da micro1</b>: a seleção, os valores e as horas dependem só deles, e não há garantias. Se preferires, candidata-te directamente em micro1.ai.</div>',
    foot=f'<footer>Página pessoal e independente de Marco Cotas (Coimbra). Não é um site da micro1. Sem formulários nem cookies. Vagas e valores copiados das páginas oficiais a {DATE_PT} e podem ter mudado: confirma sempre na página da micro1.</footer>',
    apply='Candidatar em micro1.ai', more='Ver detalhes', loc='Local', pay='Pagamento anunciado pela micro1', open='Aceita Europa', all='Todas', only='Esconder vagas só para os EUA ou outro país', search='Procurar vaga (ex.: lawyer, python, portuguese)',
  ),
  'en': dict(
    nav='<nav><a href="{r}en/index.html">Jobs</a> · <a href="{r}en/micro1-interview-guide.html">Interview guide</a> · <a href="{r}index.html">Português</a></nav>',
-   disc='<div class="box"><b>Disclosure:</b> the "Apply" buttons are my referral links. If you apply through them, get selected and work 10 hours, micro1 pays me a bonus. It costs you nothing. <b>I don\'t work for micro1 and I\'m not a recruiter</b>: selection, pay and hours are up to them, and nothing is guaranteed. You can also apply directly on micro1.ai.</div>',
+   disc='<div class="box"><b>Disclosure:</b> the "Apply" buttons are my referral links. If you apply through them, get selected and work 10 hours, micro1 pays me a bonus. It costs you nothing. <b>I\'m not a micro1 employee or recruiter</b>: selection, pay and hours are up to them, and nothing is guaranteed. You can also apply directly on micro1.ai.</div>',
    foot=f'<footer>Independent personal page by Marco Cotas (Portugal). Not a micro1 website. No forms, no cookies. Jobs and pay copied from micro1\'s official pages on {DATE_EN} and may have changed: always check the micro1 page.</footer>',
    apply='Apply on micro1.ai', more='Details', loc='Location', pay='Pay listed by micro1', open='Europe OK', all='All', only='Hide roles limited to the US or another country', search='Search jobs (e.g. lawyer, python, portuguese)',
  ),
