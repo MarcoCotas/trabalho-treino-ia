@@ -1,0 +1,4 @@
+tools/jobs.json
+tools/details.json
+tools/__pycache__/
+STATUS.md
