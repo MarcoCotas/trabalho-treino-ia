@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://marcocotas.github.io/trabalho-treino-ia/sitemap.xml
+Disallow:
